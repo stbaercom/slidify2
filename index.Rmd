@@ -1,0 +1,37 @@
+---
+title       : Coursera Data Products Assignment - Slidify Pitch
+subtitle    : 
+author      : Stefan Baerisch
+job         : Student
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+I have prepared a Shiny app to find your favorite car from the mtcars data set!
+
+
+--- .class #id 
+
+If you look that the number of cars and the differeneces in cars, it is clear you need an app. Even if none of the cars in mtcars are in production anymore!
+
+
+--- .class #id 
+
+Just look at all the differnt information on cars you have to consider!
+
+```{r}
+summary(mtcars)
+```
+
+
+--- .class #id 
+
+So, go over to https://stefanbaerisch.shinyapps.io/dp_shiny/ and find your perfect car!
+
+
+
